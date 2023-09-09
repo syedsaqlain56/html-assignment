@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body  style="background-color: rgba(146, 80, 55, 0.973)">
+    <h1><center>KM Custom HTML Form Example Using AppleScript</center></h1>
+<table border="3px">
+        <form action="post">
+            <tr>
+<td width ="250px"> name </td>
+   <td width ="500px"> <input type="text"> </td>
+
+</tr>
+<tr>
+    <td width ="150px"> Email </td>
+       <td> <input type="email"> </td>
+    
+    </tr>
+    <tr>
+        <td width ="150px"> Password</td>
+           <td> <input type="password"> </td>
+           <tr>
+            <td width ="150px"> Approval Required <br>click on the button or text to select </td>
+               <td> <input type="checkbox" name="approve">do you approve? <br>
+                
+        </tr>
+        </tr>
+        <tr>
+            <td width ="150px"> Pick your favourite <br>click on the button to check/uncheck </td>
+               <td> <input type="radio" name="favourite">choice A <br>
+                <input type="radio" name="favourite">choice B <br>
+             <input type="radio" name="favourite">choice C</td>
+        </tr>
+             <tr>
+                <td width ="150px"> popup menu </td>
+                   <td> <select name="menu" >
+                       <option value="texas">texas</option>
+                       <option value="dallas">dallas</option>
+                       <option value="carlifornia">carlifornia</option>
+                   </select>  </td>
+                </tr>
+                <tr>
+                    <td width ="250px"> list <br>setup option 
+                    <ul>
+                        <li>number of rows to display</li>
+                        <li>allow multi-select</li>
+                    </ul>
+                    </td>
+                       <td width ="500px"> <select name="city" size="4" multiple >
+                        <option value="california --CA">california--CA</option>
+                        <option value="colorado --CO">colorado--CO</option>
+                        <option value="conecticut --CN">conecticut--CN</option>
+                        <option value="dalifornia --DA">dalifornia--DA</option>
+                    </select> </td>
+                    
+                    </tr>
+                    <tr>
+                        <td width ="150px"> field ignored by KM </td>
+                           <td> <input type="number"> </td>
+                            </tr>
+                           <tr>
+                               <td>text area</td>
+                               <td> <textarea name="area" id="" cols="30" rows="2"></textarea>  
+                               </td>
+                           </tr>
+                          
+            
+    </form>
+</table> <br> <br>
+<input type="submit" name="save" value="save"> 
+<input type="submit" name="cancel" value="cancel">
+<input type="submit" name="resize" value="resize">
+</body>
+</html>
